@@ -1,0 +1,10 @@
+[Application]
+name=com.haroopress.Haroopad
+runtime=org.freedesktop.Platform/x86_64/3.22
+command=haroopad
+
+[Context]
+shared=ipc;network;
+sockets=x11;wayland;pulseaudio;
+devices=dri;
+filesystems=host;
